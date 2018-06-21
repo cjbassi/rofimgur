@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # screenshot filename
-tmp_image=/tmp/maim_imgur.$USER.$$.png
+tmp_image=$(mktemp maim_imgur.${USER}.XXXXX.png)
 
 check_install() {
      if [[ ! $(type $1 2>/dev/null) ]]; then
