@@ -67,8 +67,10 @@ check_install "xclip"
 check_install "xdotool"
 
 # starting rofi in dmenu mode
-select_option "$(printf "%s\n" "${options[@]}" | rofi -dmenu \
-     -i \
-     -p "> " \
-     -width 174 \
-     -lines 3)"
+select_option "$(printf "%s\n" "${options[@]}" |
+                rofi -dmenu \
+                -i \
+                -p "rofimgur" \
+                -width 250 \
+                -lines 3 \
+                )"
