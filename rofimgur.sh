@@ -30,7 +30,7 @@ imgur_upload() {
 }
 
 grab_area() {
-     maim -s >"$tmp_image"
+     maim --select --hidecursor > "$tmp_image"
      imgur_upload "$tmp_image"
 }
 
