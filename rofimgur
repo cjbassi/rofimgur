@@ -3,7 +3,7 @@
 client_id=53b565be1cad6be
 
 # screenshot filename
-tmp_image=$(mktemp maim_imgur.${USER}.XXXXX.png)
+tmp_image=$(mktemp /tmp/maim_imgur.${USER}.XXXXX.png)
 
 check_install() {
      if [[ ! $(type $1 2>/dev/null) ]]; then
