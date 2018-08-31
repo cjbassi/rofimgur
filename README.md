@@ -1,3 +1,5 @@
+Deprecated. Use [imgurbash2](https://github.com/ram-on/imgurbash2) instead.
+
 # rofimgur
 
 A script that uploads screenshots to imgur anonymously and uses [rofi](https://github.com/DaveDavenport/rofi) to allow you to choose screenshot method.
