@@ -1,4 +1,4 @@
-Deprecated. Use [imgurbash2](https://github.com/ram-on/imgurbash2) instead.
+Deprecated. Use [teiler](https://github.com/carnager/teiler) instead.
 
 # rofimgur
 
@@ -8,4 +8,4 @@ Can be installed from the AUR with the `rofimgur-git` package.
 
 Requires: `rofi`, `maim`, `curl`, `xclip`, and `xdotool`.
 
-All credit goes to reddit user Aza_ze1. I just did some minor changes and created an AUR package for the script.
+All credit goes to [Astrak](https://git.astrak.co/astrak). Original script found in his dotfiles [here](https://git.astrak.co/astrak/dots/src/branch/master/rofi/.config/rofi/scripts/maim_imgur.sh). I just did some minor changes and created an AUR package for the script.
